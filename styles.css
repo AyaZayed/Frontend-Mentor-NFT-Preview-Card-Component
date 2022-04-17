@@ -1,0 +1,84 @@
+:root {
+  --Soft-blue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+  --Very-dark-blue-main: hsl(217, 54%, 11%);
+  --Very-dark-blue-card: hsl(216, 50%, 16%);
+  --Very-dark-blue-line: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+}
+
+body {
+  background-color: var(--Very-dark-blue-main);
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: var(--White);
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+
+.card {
+  width: 20rem;
+  margin: 5rem auto;
+  padding: 20px;
+  background-color: var(--Very-dark-blue-card);
+  color: var(--Soft-blue);
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.card img {
+  width: 100%;
+  height: 20rem;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+
+.card h3 {
+  color: var(--White);
+}
+
+.card .info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card .info div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.card .info img {
+  height: 2rem;
+  width: 2rem;
+}
+
+.card .avatar {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.card .avatar img {
+  border: 1px solid var(--White);
+  width: 3rem;
+  height: 3rem;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
