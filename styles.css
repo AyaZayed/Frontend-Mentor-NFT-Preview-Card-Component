@@ -97,9 +97,9 @@ body {
 }
 
 .card .avatar img {
-  border: 2px solid var(--White);
-  width: 3rem;
-  height: 3rem;
+  border: 1px solid var(--White);
+  width: 2.5rem;
+  height: 2.5rem;
   margin-right: 15px;
   border-radius: 100%;
   -webkit-border-radius: 100%;
